@@ -229,7 +229,23 @@ a.cancel{
 }
 
 
+/* modal */
 
+.casa-modal{
+	position: absolute; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0,0,0,0.5);z-index: 999;
+}
+
+.casa-modal-inner{
+	margin: 1rem auto 0 auto; 
+	height: 800px; background: #FFF; padding: 1rem;
+	min-width: 320px; 
+	max-width: 480px;
+}
+
+
+.casa-modal-footer{
+	
+}
 
 /*
 furnace focus over-rides
