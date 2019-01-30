@@ -216,6 +216,14 @@ a.cancel{
     color: #212529;
     background-color: #ffc107;
 }
+.badge-expired {
+    color: #FFFFFF;
+    background-color: #BB0C0F;
+}
+.badge-in-progress {
+    color: #FFFFFF;
+    background-color: #12b5ea;
+}
 .badge {
     display: inline-block;
     padding: .25em .4em;
