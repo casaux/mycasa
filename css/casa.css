@@ -26,8 +26,7 @@ main{
 }
 
 .header .logo, .header .user{
-	margin:32px 0 32px 0;
-	height:60px;
+	margin:24px 0 24px 0;
 }
 
 .header .logo.au-body.au-body--dark{
@@ -36,10 +35,27 @@ main{
 	background-color: transparent;
 }
 
-.header .user{
+.header .menu{
 	float:right;
 	display:table;
-	margin-right:24px;
+	padding:38px 24px 38px 24px;
+	background:#015f7b;
+}
+
+.header .menu:hover{
+	cursor:pointer;
+	background:#13B5EA;
+}
+
+.header .menu .menu-label, .header .menu img{
+	display:block;
+	float:left;
+	color:#fff;
+}
+
+.header .menu .menu-label{
+	padding-left:4px;
+	padding-right:4px;
 }
 
 .header .user .au-body--dark{
@@ -47,6 +63,8 @@ main{
    display: table-cell;
     vertical-align: middle;
 }
+
+
 
 .au-page-alerts{
 	background:#fff;
@@ -198,6 +216,25 @@ a.cancel{
 .detail-panels .detail-video {width:30%;padding:1rem 0 1rem 0;}
 
 /* status box, for displaying information with a status */
+
+.casa-name-arn{
+	margin-top:0 !important;
+	padding-top:0 !important;
+}
+
+.casa-name-arn span{
+	display:block;
+	font-weight:normal;
+}
+
+.casa-dashboard-item{
+	background:#f8f8f8;
+	float:left;
+	width:50%;
+}
+
+
+
 
 .casa-status-box{
     margin:0;
