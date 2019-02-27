@@ -26,8 +26,7 @@ main{
 }
 
 .header .logo, .header .user{
-	margin:32px 0 32px 0;
-	height:60px;
+	margin:24px 0 24px 0;
 }
 
 .header .logo.au-body.au-body--dark{
@@ -36,10 +35,27 @@ main{
 	background-color: transparent;
 }
 
-.header .user{
+.header .menu{
 	float:right;
 	display:table;
-	margin-right:24px;
+	padding:38px 24px 38px 24px;
+	background:#015f7b;
+}
+
+.header .menu:hover{
+	cursor:pointer;
+	background:#13B5EA;
+}
+
+.header .menu .menu-label, .header .menu img{
+	display:block;
+	float:left;
+	color:#fff;
+}
+
+.header .menu .menu-label{
+	padding-left:4px;
+	padding-right:4px;
 }
 
 .header .user .au-body--dark{
@@ -47,6 +63,8 @@ main{
    display: table-cell;
     vertical-align: middle;
 }
+
+
 
 .au-page-alerts{
 	background:#fff;
@@ -199,6 +217,25 @@ a.cancel{
 
 /* status box, for displaying information with a status */
 
+.casa-name-arn{
+	margin-top:0 !important;
+	padding-top:0 !important;
+}
+
+.casa-name-arn span{
+	display:block;
+	font-weight:normal;
+}
+
+.casa-dashboard-item{
+	background:#f8f8f8;
+	float:left;
+	width:50%;
+}
+
+
+
+
 .casa-status-box{
     margin:0;
     border-bottom: .07rem dashed #ebedf2;
@@ -215,6 +252,14 @@ a.cancel{
 .badge-warning {
     color: #212529;
     background-color: #ffc107;
+}
+.badge-expired {
+    color: #FFFFFF;
+    background-color: #BB0C0F;
+}
+.badge-in-progress {
+    color: #FFFFFF;
+    background-color: #12b5ea;
 }
 .badge {
     display: inline-block;
@@ -270,6 +315,28 @@ a.cancel{
 
 .casa-modal-footer{
 	border-top:1px solid #e5e5e5;
+}
+
+.westpac .au-header {background-color:#555555;}
+.westpac h2 {
+  font-family:"Times New Roman","Times",serif,sans-serif;
+  color: #621a4b;
+}
+.westpac .au-btn{
+  border-color: #d5002b;
+  background-color: #d5002b;
+}
+.westpac a.au-btn.au-btn--secondary {
+  background-color: #fff;
+    color: #2d373e;
+  border-color: #2d373e;
+}
+.westpac label:before {
+  content:"* ";
+  color:#d5002b;
+}
+.westpac footer{
+  background-color: #efece3;
 }
 
 /*
