@@ -153,7 +153,11 @@ a.cancel{
 	padding:0.5rem 0;
 }
 
-.body-row:nth-child(even){
+.body-row{
+	background:#fff;
+}
+
+.body-row:nth-child(odd){
 	background:#fafafa;
 }
 
@@ -792,13 +796,6 @@ a.cancel{
 	padding:0.8rem 0;
 }
 
-.body-row{
-	padding:0.5rem 0;
-}
-
-.body-row:nth-child(even){
-	background:#fafafa;
-}
 
 
 
