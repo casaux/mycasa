@@ -796,7 +796,7 @@ a.cancel{
 	padding:0.5rem 0;
 }
 
-.body-row:nth-child(odd){
+.body-row:nth-child(even){
 	background:#fafafa;
 }
 
