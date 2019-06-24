@@ -412,6 +412,12 @@ line-height: 3rem;
 	margin-right:16px;
 }
 
+.casa-profile{
+	float: right;
+	margin-top:32px;
+margin-right:120px;
+}
+
 #dropdown-menu p#mycasa-home{
 	margin-top:6px;
 	padding-top:14px;
@@ -448,6 +454,14 @@ line-height: 3rem;
 
 .icon-profile{
 	background-image:url(../img/profile.png);
+}
+
+.icon-profile-bob{
+	background-image:url(../img/profile-bob.png);
+}
+
+.icon-profile-bob-org{
+	background-image:url("../img/profile-bob-org.png");
 }
 
 .icon-licences{
@@ -489,7 +503,9 @@ line-height: 3rem;
 	.icon-reoc{
 	background-image:url(../img/reoc.png);
 }
-				
+	.icon-personnel{
+	background-image:url("../img/personnel.png");
+}				
 
 
 
