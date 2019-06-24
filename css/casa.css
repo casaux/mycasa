@@ -13,7 +13,7 @@ main{
 }
 
 
-.banner a
+.banner aorg
 {color: #FFFFFF;
 }
 
@@ -469,6 +469,10 @@ line-height: 3rem;
 
 .icon-organisation{
 	background-image:url(../img/organisation.png);
+}
+
+.icon-aviationworx{
+	background-image:url(../img/aviationworx.png);
 }
 
 
