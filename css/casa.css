@@ -95,6 +95,8 @@ hr{
 	margin-bottom:3rem !important;
 }
 
+
+
 a.cancel{
 	color:#ff635c;
 }
@@ -304,7 +306,10 @@ line-height: 3rem;
 	text-align: left;
 }
 
-
+.casa-section{
+	padding-bottom: 1rem;
+		
+}
 
 
 .westpac .au-header {background-color:#555555;}
@@ -339,7 +344,7 @@ display: block!important;
 }
 
 .casa-form-guidance{
-  color: #676767;
+  color: #61696B;
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 8px !important;
@@ -958,7 +963,7 @@ display: block!important;
 }
 
 .casa-form-guidance{
-  color: #676767;
+  color: #61696B;
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 8px !important;
